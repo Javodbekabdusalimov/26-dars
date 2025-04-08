@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vh;
+
+  background-color: #444444;
+  display: flex;
+  margin: 100px auto;
+}
+.otasi {
+  width: 804px;
+  height: 512px;
+  background-color: white;
+  display: flex;
+
+  border-radius: 16px;
+}
+.mars {
+  width: 100px;
+
+  height: 21.469999313354492px;
+}
+.bola {
+  width: 402px;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  padding: 70px 0;
+  align-items: center;
+}
+.bola h1 {
+  font-family: Onest;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+  color: blue;
+  margin-top: 80px;
+  margin: 0 auto;
+}
+.rasm {
+  width: 414px;
+  height: 488px;
+}
+.bol {
+  width: 402px;
+  height: 512px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  margin-right: 10px;
+}
+.yozuv {
+  width: 350px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  padding: 21px 20px;
+  gap: 21px;
+}
+.in {
+  width: 310px;
+  height: 42px;
+  border-radius: 6px;
+  border-width: 1px;
+  font-family: Onest;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  padding: 10px 9px;
+  border: 1px solid #d1d5db;
+}
+.in:hover {
+  border: black;
+  font-size: 17px;
+}
+.yoz p {
+  font-family: Onest;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: red;
+}
+.tugma {
+  width: 310px;
+  height: 40px;
+  opacity: 0.5;
+
+  border-radius: 6px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #ff805d;
+  font-family: Onest;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  outline: none;
+  border: none;
+  transition: all 100ms;
+}
+.tugma:active {
+  background-color: red;
+  color: yellow;
+}
